@@ -10,7 +10,7 @@ public class Menu {
         String marca;
         String tipo;
 
-        Veiculo veiculo = new
+        Veiculo veiculo = new Veiculo();
 
                 System.out.println("quantidade de rodas: ");
         veiculo.setQuantidadeRodas(sc.nextInt());
@@ -22,9 +22,7 @@ public class Menu {
         tipo = sc.next();
 
 
-                Veiculo(quantidadeRodas, chassi, marca, tipo);
-        (quantidadeRodas);
-(chassi);
+
         veiculo.setMarca(marca);
         veiculo.setTipo(tipo);
 
