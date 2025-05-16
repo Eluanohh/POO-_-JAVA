@@ -1,25 +1,23 @@
 package CalculadoraGeometrica;
 
-import javax.swing.*;
-import java.awt.geom.Area;
-
 public class FormaGeometrica {
-    String cor;
+    private String cor;
 
-
-    public FormaGeometrica(String cor){
+    public FormaGeometrica(String cor) {
         this.cor = cor;
     }
 
-    public double calculoArea() {
+    public double calculaPerimetro() {
         System.out.println("Não implementado!");
         return 0.0;
     }
-    public double calculoPerimetro() {
+
+    public double calculaArea() {
         System.out.println("Não implementado!");
         return 0.0;
     }
-    public double calculoVolume() {
+
+    public double calculaVolume() {
         System.out.println("Não implementado!");
         return 0.0;
     }

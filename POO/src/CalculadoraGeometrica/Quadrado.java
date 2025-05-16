@@ -4,7 +4,7 @@ public class Quadrado extends FormaGeometrica{
     private double lado;
 
     public Quadrado(String cor, double lado){
-        super (cor);
+        super(cor);
         this.lado = lado;
     }
 
@@ -17,17 +17,17 @@ public class Quadrado extends FormaGeometrica{
     }
 
     @Override
-    public double calculoArea() {
+    public double calculaArea() {
         return this.lado * this.lado;
     }
 
     @Override
-    public double calculoPerimetro() {
-        return this.lado = 4;
+    public double calculaPerimetro() {
+        return this.lado * 4;
     }
 
     @Override
-    public double calculoVolume() {
-        return Math.pow(this.lado, 3); // Lado ao CUbo
+    public double calculaVolume() {
+        return Math.pow(this.lado, 3); // lado^3
     }
 }
